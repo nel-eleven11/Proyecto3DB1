@@ -11,7 +11,7 @@ CREATE TABLE Northwind_Product (
     ProductID NUMBER(38) PRIMARY KEY,
     ProductName VARCHAR2(128 BYTE) NOT NULL,
     QuantityPerUnit VARCHAR2(20 BYTE),
-    UnitPrice NUMBER(10, 2),
+    UnitPrice NUMBER(38, 2),
     Discontinued NUMBER(38),
     CategoryID NUMBER(10),
     PRIMARY KEY (ProductID),
@@ -55,7 +55,7 @@ CREATE TABLE Northwind_Customers (
 );
 
 CREATE TABLE Northwind_Shippers (
-    ShipperID NUMBER(10) PRIMARY KEY,
+    ShipperID NUMBER(38) PRIMARY KEY,
     CompanyName VARCHAR2(128 BYTE) NOT NULL,
     PRIMARY KEY (ShipperID)
 );
