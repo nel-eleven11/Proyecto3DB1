@@ -1,4 +1,4 @@
-employeeID,employeeName,title,city,country,reportsTo
+EMPLOYEEID,EMPLOYEENAME,TITLE,CITY,COUNTRY,REPORTSTO
 1,Nancy Davolio,Sales Representative,New York,USA,8
 2,Andrew Fuller,Vice President Sales,New York,USA,
 3,Janet Leverling,Sales Representative,New York,USA,8
