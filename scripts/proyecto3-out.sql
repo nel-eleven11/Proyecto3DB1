@@ -113,19 +113,19 @@ ALTER TABLE public."time" OWNER TO your_user;
 COPY public.customer (customerid, companyname, city, country) FROM stdin;
 ALFKI	Alfreds Futterkiste	Berlin	Germany
 ANATR	Ana Trujillo Emparedados y helados	Mexico City	Mexico
-ANTON	Antonio Moreno Taquer�a	Mexico City	Mexico
+ANTON	Antonio Moreno Taquería	Mexico City	Mexico
 AROUT	Around the Horn	London	UK
-BERGS	Berglunds snabbk�p	Lule�	Sweden
+BERGS	Berglunds snabbköp	Luleå	Sweden
 BLAUS	Blauer See Delikatessen	Mannheim	Germany
-BLONP	Blondesddsl p�re et fils	Strasbourg	France
-BOLID	B�lido Comidas preparadas	Madrid	Spain
+BLONP	Blondesddsl père et fils	Strasbourg	France
+BOLID	Bólido Comidas preparadas	Madrid	Spain
 BONAP	Bon app'	Marseille	France
 BOTTM	Bottom-Dollar Markets	Tsawassen	Canada
 BSBEV	B's Beverages	London	UK
 CACTU	Cactus Comidas para llevar	Buenos Aires	Argentina
 CENTC	Centro comercial Moctezuma	Mexico City	Mexico
 CHOPS	Chop-suey Chinese	Bern	Switzerland
-COMMI	Com�rcio Mineiro	Sao Paulo	Brazil
+COMMI	Comércio Mineiro	Sao Paulo	Brazil
 CONSH	Consolidated Holdings	London	UK
 DRACD	Drachenblut Delikatessen	Aachen	Germany
 DUMON	Du monde entier	Nantes	France
@@ -134,22 +134,22 @@ ERNSH	Ernst Handel	Graz	Austria
 FAMIA	Familia Arquibaldo	Sao Paulo	Brazil
 FISSA	FISSA Fabrica Inter. Salchichas S.A.	Madrid	Spain
 FOLIG	Folies gourmandes	Lille	France
-FOLKO	Folk och f� HB	Br�cke	Sweden
-FRANK	Frankenversand	M�nchen	Germany
+FOLKO	Folk och fä HB	Bräcke	Sweden
+FRANK	Frankenversand	München	Germany
 FRANR	France restauration	Nantes	France
 FRANS	Franchi S.p.A.	Torino	Italy
 FURIB	Furia Bacalhau e Frutos do Mar	Lisboa	Portugal
-GALED	Galer�a del gastr�nomo	Barcelona	Spain
-GODOS	Godos Cocina T�pica	Sevilla	Spain
+GALED	Galería del gastrónomo	Barcelona	Spain
+GODOS	Godos Cocina Típica	Sevilla	Spain
 GOURL	Gourmet Lanchonetes	Campinas	Brazil
 GREAL	Great Lakes Food Market	Eugene	USA
 GROSR	GROSELLA-Restaurante	Caracas	Venezuela
 HANAR	Hanari Carnes	Rio de Janeiro	Brazil
-HILAA	HILARION-Abastos	San Crist�bal	Venezuela
+HILAA	HILARION-Abastos	San Cristóbal	Venezuela
 HUNGC	Hungry Coyote Import Store	Elgin	USA
 HUNGO	Hungry Owl All-Night Grocers	Cork	Ireland
 ISLAT	Island Trading	Cowes	UK
-KOENE	K�niglich Essen	Brandenburg	Germany
+KOENE	Königlich Essen	Brandenburg	Germany
 LACOR	La corne d'abondance	Versailles	France
 LAMAI	La maison d'Asie	Toulouse	France
 LAUGB	Laughing Bacchus Wine Cellars	Vancouver	Canada
@@ -161,39 +161,39 @@ LINOD	LINO-Delicateses	I. de Margarita	Venezuela
 LONEP	Lonesome Pine Restaurant	Portland	USA
 MAGAA	Magazzini Alimentari Riuniti	Bergamo	Italy
 MAISD	Maison Dewey	Bruxelles	Belgium
-MEREP	M�re Paillarde	Montr�al	Canada
+MEREP	Mère Paillarde	Montréal	Canada
 MORGK	Morgenstern Gesundkost	Leipzig	Germany
 NORTS	North/South	London	UK
-OCEAN	Oc�ano Atl�ntico Ltda.	Buenos Aires	Argentina
+OCEAN	Océano Atlántico Ltda.	Buenos Aires	Argentina
 OLDWO	Old World Delicatessen	Anchorage	USA
-OTTIK	Ottilies K�seladen	K�ln	Germany
-PARIS	Paris sp�cialit�s	Paris	France
-PERIC	Pericles Comidas cl�sicas	Mexico City	Mexico
+OTTIK	Ottilies Käseladen	Köln	Germany
+PARIS	Paris spécialités	Paris	France
+PERIC	Pericles Comidas clásicas	Mexico City	Mexico
 PICCO	Piccolo und mehr	Salzburg	Austria
 PRINI	Princesa Isabel Vinhos	Lisboa	Portugal
-QUEDE	Que Del�cia	Rio de Janeiro	Brazil
+QUEDE	Que Delícia	Rio de Janeiro	Brazil
 QUEEN	Queen Cozinha	Sao Paulo	Brazil
 QUICK	QUICK-Stop	Cunewalde	Germany
 RANCH	Rancho grande	Buenos Aires	Argentina
 RATTC	Rattlesnake Canyon Grocery	Albuquerque	USA
 REGGC	Reggiani Caseifici	Reggio Emilia	Italy
 RICAR	Ricardo Adocicados	Rio de Janeiro	Brazil
-RICSU	Richter Supermarkt	Gen�ve	Switzerland
+RICSU	Richter Supermarkt	Genève	Switzerland
 ROMEY	Romero y tomillo	Madrid	Spain
-SANTG	Sant� Gourmet	Stavern	Norway
+SANTG	Santé Gourmet	Stavern	Norway
 SAVEA	Save-a-lot Markets	Boise	USA
 SEVES	Seven Seas Imports	London	UK
 SIMOB	Simons bistro	Kobenhavn	Denmark
-SPECD	Sp�cialit�s du monde	Paris	France
+SPECD	Spécialités du monde	Paris	France
 SPLIR	Split Rail Beer & Ale	Lander	USA
-SUPRD	Supr�mes d�lices	Charleroi	Belgium
+SUPRD	Suprêmes délices	Charleroi	Belgium
 THEBI	The Big Cheese	Portland	USA
 THECR	The Cracker Box	Butte	USA
-TOMSP	Toms Spezialit�ten	M�nster	Germany
+TOMSP	Toms Spezialitäten	Münster	Germany
 TORTU	Tortuga Restaurante	Mexico City	Mexico
-TRADH	Tradi��o Hipermercados	Sao Paulo	Brazil
+TRADH	Tradição Hipermercados	Sao Paulo	Brazil
 TRAIH	Trail's Head Gourmet Provisioners	Kirkland	USA
-VAFFE	Vaffeljernet	�rhus	Denmark
+VAFFE	Vaffeljernet	Århus	Denmark
 VICTE	Victuailles en stock	Lyon	France
 VINET	Vins et alcools Chevalier	Reims	France
 WANDK	Die Wandernde Kuh	Stuttgart	Germany
@@ -2411,14 +2411,14 @@ COPY public.product (productid, productname, productcategory) FROM stdin;
 19	Teatime Chocolate Biscuits	Confections
 20	Sir Rodney's Marmalade	Confections
 21	Sir Rodney's Scones	Confections
-22	Gustaf's Knackebr�d	Grains & Cereals
-23	Tunnbr�d	Grains & Cereals
+22	Gustaf's Knackebröd	Grains & Cereals
+23	Tunnbröd	Grains & Cereals
 24	Guarana Fantastica	Beverages
-25	NuNuCa�Nu�-Nougat-Creme	Confections
-26	Gumb�r Gummib�rchen	Confections
+25	NuNuCa Nuß-Nougat-Creme	Confections
+26	Gumbär Gummibärchen	Confections
 27	Schoggi Schokolade	Confections
-28	R�ssle Sauerkraut	Produce
-29	Th�ringer Rostbratwurst	Meat & Poultry
+28	Rössle Sauerkraut	Produce
+29	Thüringer Rostbratwurst	Meat & Poultry
 30	Nord-Ost Matjeshering	Seafood
 31	Gorgonzola Telino	Dairy Products
 32	Mascarpone Fabioli	Dairy Products
@@ -2427,7 +2427,7 @@ COPY public.product (productid, productname, productcategory) FROM stdin;
 35	Steeleye Stout	Beverages
 36	Inlagd Sill	Seafood
 37	Gravad lax	Seafood
-38	C�te de Blaye	Beverages
+38	Côte de Blaye	Beverages
 39	Chartreuse verte	Beverages
 40	Boston Crab Meat	Seafood
 41	Jack's New England Clam Chowder	Seafood
@@ -2443,17 +2443,17 @@ COPY public.product (productid, productname, productcategory) FROM stdin;
 51	Manjimup Dried Apples	Produce
 52	Filo Mix	Grains & Cereals
 53	Perth Pasties	Meat & Poultry
-54	Tourti�re	Meat & Poultry
-55	P�t� chinois	Meat & Poultry
+54	Tourtière	Meat & Poultry
+55	Pâté chinois	Meat & Poultry
 56	Gnocchi di nonna Alice	Grains & Cereals
 57	Ravioli Angelo	Grains & Cereals
 58	Escargots de Bourgogne	Seafood
 59	Raclette Courdavault	Dairy Products
 60	Camembert Pierrot	Dairy Products
-61	Sirop d'�rable	Condiments
+61	Sirop d'érable	Condiments
 62	Tarte au sucre	Confections
 63	Vegie-spread	Condiments
-64	Wimmers gute Semmelkn�del	Grains & Cereals
+64	Wimmers gute Semmelknödel	Grains & Cereals
 65	Louisiana Fiery Hot Pepper Sauce	Condiments
 66	Louisiana Hot Spiced Okra	Condiments
 67	Laughing Lumberjack Lager	Beverages
@@ -2462,11 +2462,11 @@ COPY public.product (productid, productname, productcategory) FROM stdin;
 70	Outback Lager	Beverages
 71	Flotemysost	Dairy Products
 72	Mozzarella di Giovanni	Dairy Products
-73	R�d Kaviar	Seafood
+73	Röd Kaviar	Seafood
 74	Longlife Tofu	Produce
-75	Rh�nbr�u Klosterbier	Beverages
-76	Lakkalik�ri	Beverages
-77	Original Frankfurter Gr�ne So�e	Condiments
+75	Rhönbräu Klosterbier	Beverages
+76	Lakkaliköri	Beverages
+77	Original Frankfurter Grüne Soße	Condiments
 \.
 
 
@@ -2967,94 +2967,6 @@ COPY public."time" (timeid, date, year, quarter, month, day) FROM stdin;
 20150316	2015-03-16	2015	1	3	16
 20150407	2015-04-07	2015	2	4	7
 \.
-
-
---
--- Name: customer customer_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.customer
-    ADD CONSTRAINT customer_pkey PRIMARY KEY (customerid);
-
-
---
--- Name: employee employee_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.employee
-    ADD CONSTRAINT employee_pkey PRIMARY KEY (employeeid);
-
-
---
--- Name: orders_facts orders_facts_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_pkey PRIMARY KEY (customerid, productid, employeeid, timeid, supplierid);
-
-
---
--- Name: product product_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.product
-    ADD CONSTRAINT product_pkey PRIMARY KEY (productid);
-
-
---
--- Name: supplier supplier_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.supplier
-    ADD CONSTRAINT supplier_pkey PRIMARY KEY (supplierid);
-
-
---
--- Name: time time_pkey; Type: CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public."time"
-    ADD CONSTRAINT time_pkey PRIMARY KEY (timeid);
-
-
---
--- Name: orders_facts orders_facts_customerid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_customerid_fkey FOREIGN KEY (customerid) REFERENCES public.customer(customerid);
-
-
---
--- Name: orders_facts orders_facts_employeeid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_employeeid_fkey FOREIGN KEY (employeeid) REFERENCES public.employee(employeeid);
-
-
---
--- Name: orders_facts orders_facts_productid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_productid_fkey FOREIGN KEY (productid) REFERENCES public.product(productid);
-
-
---
--- Name: orders_facts orders_facts_supplierid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_supplierid_fkey FOREIGN KEY (supplierid) REFERENCES public.supplier(supplierid);
-
-
---
--- Name: orders_facts orders_facts_timeid_fkey; Type: FK CONSTRAINT; Schema: public; Owner: your_user
---
-
-ALTER TABLE ONLY public.orders_facts
-    ADD CONSTRAINT orders_facts_timeid_fkey FOREIGN KEY (timeid) REFERENCES public."time"(timeid);
 
 
 --
