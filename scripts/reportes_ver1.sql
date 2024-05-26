@@ -1,53 +1,9 @@
-select * from customer;
-select * from employee e ;
-select * from orders_facts of2 ;
-select * from product p ;
-select * from supplier s ;
-select * from time;
-
-CREATE TABLE public.customer (
-    customerid character varying(30) NOT NULL,
-    companyname character varying(255),
-    city character varying(100),
-    country character varying(100)
-);
-
-CREATE TABLE public.employee (
-    employeeid integer NOT NULL,
-    emplastname character varying(255),
-    mnglastname character varying(255)
-);
-
-CREATE TABLE public.orders_facts (
-    customerid character varying(30) NOT NULL,
-    productid integer NOT NULL,
-    employeeid integer NOT NULL,
-    timeid integer NOT NULL,
-    supplierid integer NOT NULL,
-    price numeric(10,2),
-    quantity integer
-);
-
-CREATE TABLE public.product (
-    productid integer NOT NULL,
-    productname character varying(255),
-    productcategory character varying(100)
-);
-
-CREATE TABLE public.supplier (
-    supplierid integer NOT NULL,
-    companyname character varying(255),
-    country character varying(100)
-);
-
-CREATE TABLE public."time" (
-    timeid integer NOT NULL,
-    date date,
-    year integer,
-    quarter integer,
-    month integer,
-    day integer
-);
+--select * from customer;
+--select * from employee e ;
+--select * from orders_facts of2 ;
+--select * from product p ;
+--select * from supplier s ;
+--select * from time;
 
 CREATE VIEW ventas_totales_cliente_anio AS
 SELECT 
