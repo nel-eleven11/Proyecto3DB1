@@ -40,6 +40,9 @@ GROUP BY
     p.productid, p.productname, t.year, t.month;
    
 select * from ventas_totales_producto_mes;
+create index idx_time on time (year, month);
+--drop index idx_time;
+--drop view ventas_totales_producto_mes;
 
 CREATE VIEW ventas_totales_empleado_trimestre AS
 SELECT 
@@ -58,6 +61,9 @@ GROUP BY
     e.employeeid, e.emplastname, t.year, t.quarter;
 
 select * from ventas_totales_empleado_trimestre;
+--explain select distinct * from ventas_totales_empleado_trimestre;
+create index idx_empleado on employee (emplastname);
+--drop index idx_empleado;
 
 CREATE VIEW ventas_totales_pais_proveedor_anio AS
 SELECT 
@@ -92,4 +98,7 @@ ORDER BY
     p.productcategory, total_quantity_sold DESC;
 
 select * from productos_mas_vendidos_categoria;
+--explain select distinct * from productos_mas_vendidos_categoria;
+create index idx_category on product (productcategory);
+--drop index idx_category;
 
